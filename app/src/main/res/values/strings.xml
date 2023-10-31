@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Vimento</string>
+    <string name="text_subrayado"><u>Registrate</u></string>
 </resources>
