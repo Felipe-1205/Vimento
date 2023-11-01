@@ -81,7 +81,9 @@
                 android:checkable="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:backgroundTint="#38865C">
+                android:backgroundTint="#4EAC9B"
+                app:strokeWidth="0dp"
+                app:cardElevation="10dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -119,7 +121,9 @@
                 android:checkable="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:backgroundTint="#38865C">
+                android:backgroundTint="#4EAC9B"
+                app:strokeWidth="0dp"
+                app:cardElevation="10dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -157,7 +161,9 @@
                 android:checkable="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:backgroundTint="#38865C">
+                android:backgroundTint="#4EAC9B"
+                app:strokeWidth="0dp"
+                app:cardElevation="10dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -195,7 +201,9 @@
                 android:checkable="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:backgroundTint="#38865C">
+                android:backgroundTint="#4EAC9B"
+                app:strokeWidth="0dp"
+                app:cardElevation="10dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -233,7 +241,9 @@
                 android:checkable="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:backgroundTint="#38865C">
+                android:backgroundTint="#4EAC9B"
+                app:strokeWidth="0dp"
+                app:cardElevation="10dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -271,7 +281,9 @@
                 android:checkable="true"
                 android:clickable="true"
                 android:focusable="true"
-                android:backgroundTint="#38865C">
+                android:backgroundTint="#4EAC9B"
+                app:strokeWidth="0dp"
+                app:cardElevation="10dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
