@@ -16,5 +16,8 @@ class Registrarse : AppCompatActivity() {
         binding.button6.setOnClickListener() {
             startActivity(Intent(this, Login::class.java))
         }
+        binding.iniciarSesion.setOnClickListener() {
+            startActivity(Intent(this, SeleccionarPaciente::class.java))
+        }
     }
 }

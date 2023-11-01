@@ -1,5 +1,6 @@
 package com.example.vimento
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vimento.databinding.ActivityListaFamiliaresBinding
@@ -11,5 +12,8 @@ class ListaFamiliares : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityListaFamiliaresBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.button3.setOnClickListener() {
+            startActivity(Intent(this, LoginFamiliar::class.java))
+        }
     }
 }

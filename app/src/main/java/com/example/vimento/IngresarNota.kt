@@ -1,5 +1,6 @@
 package com.example.vimento
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vimento.databinding.ActivityIngresarNotaBinding
@@ -11,5 +12,8 @@ class IngresarNota : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityIngresarNotaBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.button4.setOnClickListener() {
+            startActivity(Intent(this, MenuPrincipal::class.java))
+        }
     }
 }

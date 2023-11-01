@@ -1,5 +1,6 @@
 package com.example.vimento
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vimento.databinding.ActivityAgendarBinding
@@ -11,5 +12,8 @@ class Agendar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityAgendarBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.button4.setOnClickListener() {
+            startActivity(Intent(this, MenuPrincipal::class.java))
+        }
     }
 }

@@ -1,5 +1,6 @@
 package com.example.vimento
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vimento.databinding.ActivityLoginFamiliarBinding
@@ -11,5 +12,11 @@ class LoginFamiliar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginFamiliarBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.iniciarSesion.setOnClickListener() {
+            startActivity(Intent(this, MenuPrincipal::class.java))
+        }
+        binding.texo.setOnClickListener() {
+            startActivity(Intent(this, RegistrarFamiliar::class.java))
+        }
     }
 }
