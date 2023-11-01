@@ -13,6 +13,42 @@
         android:theme="@style/Theme.Vimento"
         tools:targetApi="31">
         <activity
+            android:name=".MenuPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".MenuAjusteActividades"
+            android:exported="false" />
+        <activity
+            android:name=".CambiarInfoPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".Agendar"
+            android:exported="false" />
+        <activity
+            android:name=".Agenda"
+            android:exported="false" />
+        <activity
+            android:name=".IngresarNota"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarFamiliar"
+            android:exported="false" />
+        <activity
+            android:name=".LoginFamiliar"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".SeleccionarPaciente"
+            android:exported="false" />
+        <activity
             android:name=".Registrarse"
             android:exported="false" />
         <activity
