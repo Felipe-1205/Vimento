@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Vimento"
         tools:targetApi="31">
         <activity
+            android:name=".ListaFamiliares"
+            android:exported="false" />
+        <activity
             android:name=".MenuPaciente"
             android:exported="false" />
         <activity
