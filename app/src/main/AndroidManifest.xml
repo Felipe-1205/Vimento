@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Vimento"
         tools:targetApi="31">
         <activity
+            android:name=".AjusteActividadFamiliaAgregar"
+            android:exported="false" />
+        <activity
+            android:name=".AjusteActividadFamilia"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadFamiliaAntesDespues"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadFamilia"
+            android:exported="false" />
+        <activity
             android:name=".ListaFamiliares"
             android:exported="false" />
         <activity

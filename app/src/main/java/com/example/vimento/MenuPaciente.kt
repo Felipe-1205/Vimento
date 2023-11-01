@@ -1,5 +1,6 @@
 package com.example.vimento
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vimento.databinding.ActivityMainBinding
@@ -11,5 +12,8 @@ class MenuPaciente : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMenuPacienteBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.modousuario.setOnClickListener() {
+            startActivity(Intent(this, ActividadFamilia::class.java))
+        }
     }
 }
